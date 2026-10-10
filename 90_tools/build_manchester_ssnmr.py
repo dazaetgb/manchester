@@ -307,7 +307,7 @@ LETTER = [
     "(Angew. Chem. Int. Ed., 2026) and of a guest-loaded zirconium MOF (Chem. Sci., 2020), and interpreted the "
     "¹³C CP-MAS data of a thermosalient crystal (Chem. Mater., 2025).",
 
-    "I ran these experiments on a Bruker 500 MHz spectrometer (¹H/X MAS probe), and also acquired "
+    "I ran my own experiments on a Bruker 500 MHz spectrometer (¹H/X MAS probe), and also acquired "
     "³¹P and ¹⁵N CP-MAS spectra and analysed ¹³C T₁ and solid-state ¹H and ¹⁹F relaxometry data. I made the "
     "compounds in my thesis, including the deuterated analogues, and characterised them by SCXRD, PXRD, DSC "
     "and TGA. I have not yet used DNP. The UK DNP MAS NMR Facility in Manchester, and the chance to "
