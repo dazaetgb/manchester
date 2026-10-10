@@ -292,17 +292,19 @@ LETTER = [
     "linker I recorded ²H spectra between 178 and 338 K, fitted with 90° and 180° jumps above 10⁷ Hz using "
     "electric field gradients calculated in CASTEP. After loading hexafluorobenzene, which I confirmed by ¹⁹F MAS "
     "and quantified by ¹⁹F NMR with standard additions, the 180° jumps were suppressed and the 90° site "
-    "populations depended on the photoswitch state (ACS Mater. Lett., 2026). In molecular solid solutions whose "
-    "components have similar size and shape, diffraction will distinguish far less, and solid-state NMR becomes "
-    "the main probe of how the components are distributed and how they move.",
+    "populations depended on the photoswitch state (ACS Mater. Lett., 2026). When the components have similar "
+    "size, as in the 9-anthraldehyde/9-methylanthracene solid solutions of Ye et al. (Nat. Commun., 2025), the "
+    "unit cell barely changes with composition, and the composition and statistical distribution were obtained "
+    "after dissolution or from photoproduct ratios. Solid-state NMR can measure both in the intact crystal, and "
+    "this is the problem I would like to work on within MoSS.",
 
     "In a toluene solvate of a pyrrolo[3,2-b]pyrrole that jumps when cooled to 77 K (Mater. Chem. Front., 2026), "
-    "I prepared the toluene-d₈ analogue, recorded ²H spectra from 173 to 338 K and simulated the lineshapes in "
-    "NMR WebLab with quadrupolar parameters calculated in CASTEP (GIPAW). The fit required a three-site methyl "
-    "rotation and 180° ring flips, both above 10⁷ Hz at 248 K. Variable-temperature SCXRD gave a "
+    "I prepared the toluene-d₈ analogue, recorded ²H spectra from 178 to 338 K and simulated the lineshapes in "
+    "NMR WebLab with quadrupolar parameters calculated in CASTEP (GIPAW), which showed methyl rotation and "
+    "180° ring flips above 10⁷ Hz. Variable-temperature SCXRD gave a "
     "thermal expansion coefficient of 271 MK⁻¹ oblique to the face in contact with the cold surface, and we "
-    "attributed the jump to this anisotropic expansion. This work was done with Dr Martin Dračínský and "
-    "Dr Jan Blahut at IOCB Prague. I also acquired the ¹³C CP-MAS and ²H data for cocrystals whose channels "
+    "attributed the jump to this anisotropic expansion (with Dr Martin Dračínský and Dr Jan Blahut, IOCB "
+    "Prague). I also acquired the ¹³C CP-MAS and ²H data for cocrystals whose channels "
     "hold acetone and tetrahydrofuran in different ratios, where the salient temperature follows the solvent "
     "composition (Angew. Chem. Int. Ed., 2026).",
 

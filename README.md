@@ -27,7 +27,9 @@ Resuelto el 10/10: ¹⁹F MAS; ¹³C T₁ y relaxometría de ¹H/¹⁹F en estad
 Para el PDF final: abre en Word `01_documentos/coverletter-...docx` y `cv-...docx`, exporta ambos a PDF y únelos (por ejemplo en ilovepdf.com/merge_pdf), carta primero. El PDF combinado de este repo usa una fuente sustituta y solo sirve de vista previa.
 
 Pendiente:
-1. Confirmar en la carta: (a) que tú adquiriste el ¹³C CP-MAS y el ²H del paper de Angew. Chem.; (b) quién hizo el ajuste de ²H del MOF con Spinach y los EFG en CASTEP; (c) que tú construiste los modelos DFT periódicos del MOF.
+1. (Opcional) La carta describe en voz pasiva el ajuste de ²H del MOF (Spinach + EFG de CASTEP) y los modelos DFT periódicos, así que es correcta sin importar quién los hizo. Si los hiciste tú, se puede cambiar a primera persona.
+
+Fuentes revisadas el 10/10: carpeta de papers en Drive (todas las SI) y `ejemplos solucionessolidas/` (Ye et al., Nat. Commun. 2025, 16, 6647: 9AA/9MA; composición por ¹H en disolución y distribución estadística por proporción de fotodímeros, sin RMN de sólidos). La carta usa ese ejemplo para el cierre del párrafo del MOF. ²H del Mater. Chem. Front.: 178 a 338 K, según el artículo publicado.
 2. (Resuelto: aviso de 2 semanas.)
 
 Resuelto el 10/10 (2): inicio en el IMPI en septiembre de 2026; Angew. Chem. Int. Ed. 2026, 65 (18), e26010 confirmado con el PDF (doi:10.1002/anie.202526010).
