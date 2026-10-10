@@ -30,10 +30,10 @@ Si al abrir el portal una sección no coincide con esta lista, mándame una capt
 Si piden "UK equivalent", escribe "Doctoral degree (PhD)". No hace falta un certificado ENIC en esta etapa.
 
 ## 4. Employment history (más reciente primero)
-1. **Industrial Property Expert** (Experto en Propiedad Industrial), Instituto Mexicano de la Propiedad Industrial (IMPI), Mexico City · September 2026 - present (fixed-term contract ending January 2027)
+1. **Industrial Property Expert** (Experto en Propiedad Industrial), Instituto Mexicano de la Propiedad Industrial (IMPI), Mexico City · September 2026 - present (fixed-term contract ending December 2026)
    *Duties:* [CONFIRMAR: por ejemplo, technical examination of patent applications in chemistry and materials]
-   *Reason for leaving:* Fixed-term contract ends January 2027; returning to academic research.
-   *Notice period:* [CONFIRMAR, normalmente 2 a 4 semanas]
+   *Reason for leaving:* Fixed-term contract ends December 2026; returning to academic research.
+   *Notice period:* 2 weeks
 2. **Doctoral researcher** (SECIHTI doctoral scholarship), Institute of Chemistry, UNAM · 2022 - 2026
    *Duties:* Multinuclear solid-state NMR (¹³C CP-MAS, ¹⁹F MAS, variable-temperature ²H, ¹⁵N; Bruker 500 MHz), SCXRD/PXRD, DSC/TGA and DFT/MD studies of molecular motion in organic crystals and MOFs; co-supervision of 4 bachelor's theses and 9 research placements; laboratory purchasing and training.
    *Reason for leaving:* Completion of PhD.
@@ -56,7 +56,7 @@ Pide 2 o 3; el primero suele ser tu supervisor más reciente.
 Es opcional y confidencial, y no lo ven los evaluadores. Puedes contestar o elegir "Prefer not to say".
 
 ## 7b. Availability / start date
-Available immediately; preferred start January 2027, when my current fixed-term contract ends.
+Available immediately; preferred start January 2027, after my current fixed-term contract ends in December 2026. Notice period: 2 weeks.
 
 ## 8. Where did you see this vacancy?
 University of Manchester website [o donde la viste].

@@ -18,13 +18,13 @@ Entrevistas: finales de noviembre o principios de diciembre.
 
 Ya resuelto (10/10/2026): RMN en Bruker 500 MHz con sonda ¹H/X; ¹³C CP-MAS con tiempo de contacto variable; ¹⁹F; ²H a temperatura variable; ¹⁵N limitado; NMR WebLab; análisis de ¹³C T₁ y de relaxometría de ¹H/¹⁹F; Aaron en la UAM; Further Particulars leídos (se agregaron síntesis, seguridad, supervisión y DNP Facility).
 
-Resuelto el 10/10: ¹⁹F MAS; ¹³C T₁ y relaxometría de ¹H/¹⁹F en estado sólido (analizados, no adquiridos); IMPI como Industrial Property Expert con contrato hasta enero de 2027; inicio inmediato, de preferencia en enero de 2027.
+Resuelto el 10/10: ¹⁹F MAS; ¹³C T₁ y relaxometría de ¹H/¹⁹F en estado sólido (analizados, no adquiridos); IMPI como Industrial Property Expert con contrato hasta diciembre de 2026 (renovable en enero por un año); aviso de 2 semanas; inicio inmediato, de preferencia en enero de 2027.
 
 **CV:** es tu CV original con 5 cambios mínimos (ver `90_tools/build_cv_from_base.py`). Usa la fuente Aptos, que no existe en este entorno, así que **el PDF debes exportarlo tú desde Word** (Archivo > Guardar como > PDF). El PDF generado aquí solo sirve de vista previa.
 
 Pendiente:
 1. **Tesis doctoral**, para reescribir la carta con lo que hiciste exactamente.
-2. Periodo de aviso (notice period) al dejar el IMPI.
+2. (Resuelto: aviso de 2 semanas.)
 
 Resuelto el 10/10 (2): inicio en el IMPI en septiembre de 2026; Angew. Chem. Int. Ed. 2026, 65 (18), e26010 confirmado con el PDF (doi:10.1002/anie.202526010).
 
