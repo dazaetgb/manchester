@@ -18,13 +18,14 @@ Entrevistas: finales de noviembre o principios de diciembre.
 
 Ya resuelto (10/10/2026): RMN en Bruker 500 MHz con sonda ¹H/X; ¹³C CP-MAS con tiempo de contacto variable; ¹⁹F; ²H a temperatura variable; ¹⁵N limitado; NMR WebLab; análisis de ¹³C T₁ y de relaxometría de ¹H/¹⁹F; Aaron en la UAM; Further Particulars leídos (se agregaron síntesis, seguridad, supervisión y DNP Facility).
 
+Resuelto el 10/10: ¹⁹F MAS; ¹³C T₁ y relaxometría de ¹H/¹⁹F en estado sólido (analizados, no adquiridos); IMPI como Industrial Property Expert con contrato hasta enero de 2027; inicio inmediato, de preferencia en enero de 2027.
+
+**CV:** es tu CV original con 5 cambios mínimos (ver `90_tools/build_cv_from_base.py`). Usa la fuente Aptos, que no existe en este entorno, así que **el PDF debes exportarlo tú desde Word** (Archivo > Guardar como > PDF). El PDF generado aquí solo sirve de vista previa.
+
 Pendiente:
-1. **¹⁹F:** ¿fue ¹⁹F MAS directo o CP ¹⁹F→¹³C? Ahora dice "¹⁹F MAS".
-2. **¹³C T₁:** ¿lo mediste tú o solo analizaste los datos? Ahora dice "analysed".
-3. **Relaxometría ¹H/¹⁹F:** ¿en sólido o en disolución? Ahora dice solo "relaxometry data".
-4. **Angew. Chem. 2026:** confirma el número de artículo ("e26010").
-5. **IMPI:** puesto y fecha de inicio, para el historial laboral. Si tu trabajo toca patentes de empresas, eso cubre el criterio deseable "industrial partners".
-6. **Fecha de inicio posible.**
+1. **Tesis doctoral**, para reescribir la carta con lo que hiciste exactamente.
+2. Mes de inicio en el IMPI y periodo de aviso.
+3. Angew. Chem. 2026: confirma el número de artículo ("e26010").
 
 ## Paso 1: antes de abrir el portal
 

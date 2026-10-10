@@ -351,8 +351,9 @@ def to_pdf(docx_path):
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     TMP.mkdir(exist_ok=True)
+    from build_cv_from_base import build_cv as build_cv_base
     letter_pdf = to_pdf(build_letter())
-    cv_pdf = to_pdf(build_cv())
+    cv_pdf = to_pdf(build_cv_base(OUT / f"cv-dazaet_galicia_{TAG}.docx"))
     merged = OUT / f"Galicia-Badillo_Dazaet_SAE-032399_CoverLetter_CV.pdf"
     w = PdfWriter()
     for pdf in (letter_pdf, cv_pdf):
