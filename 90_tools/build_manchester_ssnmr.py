@@ -286,42 +286,43 @@ LETTER = [
     "The chapter closest to this project concerns a solid solution. I synthesised UiO-68-type zirconium MOFs "
     "containing a terphenyl rotor linker and a longer azobenzene photoswitch linker in nominal ratios from 10 to "
     "70%. Because the linkers differ in length, the PXRD reflections, which are dominated by the Zr₆ clusters, "
-    "shifted to lower angle as the photoswitch content increased. I built periodic DFT models in CASTEP with the "
-    "linkers in ordered positions, and their calculated patterns contained extra reflections that were absent "
-    "experimentally, which pointed to a random distribution of linkers within one phase. ¹³C CP-MAS confirmed "
+    "shifted to lower angle as the photoswitch content increased. I built periodic models with the linkers in "
+    "ordered positions, and the calculated patterns of the DFT-optimised models contained extra reflections that "
+    "were absent experimentally, which pointed to a random distribution of linkers within one phase. ¹³C CP-MAS confirmed "
     "that both linkers were incorporated. With a deuterated rotor linker I recorded ²H spectra between 178 and "
     "338 K, which were fitted with 90° and 180° jumps above 10⁷ Hz using electric field gradients calculated in "
     "CASTEP. After loading hexafluorobenzene, which I confirmed by ¹⁹F MAS and quantified by ¹⁹F NMR with "
     "standard additions, the 180° jumps were suppressed and the 90° site populations depended on the "
-    "photoswitch state (ACS Mater. Lett., 2026). In molecular solid solutions whose components have similar "
-    "size, diffraction changes much less with composition, and the local environment around each nucleus seen "
-    "by solid-state NMR becomes the main source of information.",
+    "photoswitch state (ACS Mater. Lett., 2026). In molecular solid solutions of similar-sized components, "
+    "diffraction changes little with composition, and the local environment seen by solid-state NMR becomes the "
+    "main source of information.",
 
     "In a toluene solvate of a pyrrolo[3,2-b]pyrrole that jumps when cooled to 77 K (Mater. Chem. Front., 2026), "
-    "I prepared the toluene-d₈ analogue, recorded ²H spectra from 173 to 338 K and simulated the lineshapes in "
-    "NMR WebLab with quadrupolar parameters calculated in CASTEP (GIPAW), which showed methyl rotation and "
-    "180° ring flips above 10⁷ Hz. Variable-temperature SCXRD gave a thermal expansion coefficient of "
-    "271 MK⁻¹ oblique to the face in contact with the cold surface, and we attributed the jump to this "
-    "anisotropic expansion (with Dr Martin Dračínský and Dr Jan Blahut, IOCB Prague). In collaborative work, "
-    "I interpreted and modelled the ²H spectra of acetone and tetrahydrofuran in mixed-solvate cocrystals "
-    "(Angew. Chem. Int. Ed., 2026) and of a guest-loaded zirconium MOF (Chem. Sci., 2020), and interpreted the "
-    "¹³C CP-MAS data of a thermosalient crystal (Chem. Mater., 2025).",
+    "I prepared the toluene-d₈ analogue and simulated in NMR WebLab the ²H lineshapes recorded from 178 to "
+    "338 K, using quadrupolar parameters from GIPAW calculations, which showed methyl rotation and 180° ring "
+    "flips above 10⁷ Hz. Variable-temperature SCXRD gave a thermal expansion coefficient of 271 MK⁻¹ oblique "
+    "to the face in contact with the cold surface, and we attributed the jump to this anisotropic expansion "
+    "(with Dr Martin Dračínský and Dr Jan Blahut, IOCB Prague). I was responsible for the NMR analysis, in "
+    "solution and in the solid state, in all 14 of my publications. For example, I interpreted and modelled the "
+    "²H spectra of acetone and tetrahydrofuran in mixed-solvate cocrystals (Angew. Chem. Int. Ed., 2026) and of "
+    "a guest-loaded zirconium MOF (Chem. Sci., 2020), and interpreted the ¹³C CP-MAS data of a thermosalient "
+    "crystal (Chem. Mater., 2025).",
 
-    "I ran my own experiments on a Bruker 500 MHz spectrometer (¹H/X MAS probe), and also acquired "
+    "I ran my own experiments on a Bruker 500 MHz spectrometer, from acquisition to "
+    "interpretation and modelling, and also acquired "
     "³¹P and ¹⁵N CP-MAS spectra and analysed ¹³C T₁ and solid-state ¹H and ¹⁹F relaxometry data. I made the "
     "compounds in my thesis, including the deuterated analogues, and characterised them by SCXRD, PXRD, DSC "
     "and TGA. I have not yet used DNP. The UK DNP MAS NMR Facility in Manchester, and the chance to "
     "extend this work to ¹⁷O and natural-abundance ¹⁵N, are among my main reasons for applying.",
 
-    "I have 14 publications. During my PhD I co-supervised four bachelor's theses and nine research placements "
-    "and managed purchasing and inventory for our laboratory. I currently work as an Industrial Property Expert at "
-    "the Mexican Institute of Industrial Property; my contract ends in December 2026 and I could start in "
-    "January 2027. Thank you for considering my application.",
+    "I co-supervised four bachelor's theses and nine research placements and managed purchasing and inventory "
+    "for our laboratory. I currently work at the Mexican Institute of Industrial Property until December 2026 "
+    "and could start in January 2027. Thank you for considering my application.",
 ]
 
 
 def build_letter():
-    doc = base_doc(margins_cm=1.5)
+    doc = base_doc(margins_cm=1.4)
     para(doc, NAME, size=18, bold=True, color=ACCENT, after=0)
     para(doc, CONTACT, size=10, color=GREY, after=0)
     bottom_border(doc.paragraphs[-1])
@@ -334,9 +335,9 @@ def build_letter():
     para(doc, "**Re: Research Associate in Solid-State NMR Spectroscopy, ref. SAE-032399**", after=8)
     para(doc, "Dear Dr Lee,", after=6)
     for t in LETTER:
-        p = para(doc, t, after=4)
+        p = para(doc, t, after=3)
         p.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
-    para(doc, "Yours sincerely,", after=6)
+    para(doc, "Yours sincerely,", after=2)
     para(doc, "Dazaet Galicia-Badillo, PhD", bold=True, after=0)
     path = OUT / f"coverletter-dazaet_galicia_{TAG}.docx"
     doc.save(path)

@@ -8,8 +8,8 @@ BASE = ROOT / "00_fuentes" / "CV_base_Dazaet_Galicia-Badillo.docx"
 
 NMR_OLD = "Solid-state NMR: variable-temperature ²H and ¹³C, spectral simulation and relaxation analysis."
 NMR_NEW = ("Solid-state NMR (Bruker 500 MHz, double-resonance ¹H/X MAS probe): ¹³C CP-MAS, ¹⁹F MAS, ³¹P, "
-           "variable-temperature ²H and ¹⁵N CP-MAS; ²H lineshape simulation; DFT calculation of NMR parameters "
-           "(CASTEP); analysis of ¹³C T₁ and solid-state ¹H and ¹⁹F relaxometry data.")
+           "variable-temperature ²H and ¹⁵N CP-MAS; ²H lineshape simulation; DFT calculation of NMR parameters; "
+           "analysis of ¹³C T₁ and solid-state ¹H and ¹⁹F relaxometry data.")
 
 ABOUT_RUN2 = (" on the design and synthesis of organic crystals and metal-organic frameworks exhibiting dynamics "
               "from the molecular level to the macroscopic level")
@@ -28,7 +28,7 @@ EDITS = [
     ("I bring a strong experimental toolkit", "solid-state NMR (variable-temperature ²H and ¹³C)",
      "multinuclear solid-state NMR (¹³C, ¹⁹F, ³¹P, ²H, ¹⁵N)"),
     ("Experimental", NMR_OLD, NMR_NEW),
-    ("Experimental", "NMR processing: MestreNova.", "NMR processing and simulation: TopSpin, MestreNova, NMR WebLab, CASTEP."),
+    ("Experimental", "NMR processing: MestreNova.", "NMR processing and simulation: TopSpin, MestreNova, NMR WebLab, Spinach."),
     ("Dissecting Molecular and Macroscopic", "Material Chemistry Frontiers", "Materials Chemistry Frontiers"),
 ]
 
