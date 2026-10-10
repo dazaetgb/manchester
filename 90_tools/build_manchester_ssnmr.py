@@ -20,7 +20,7 @@ OUT = ROOT / "01_documentos"
 TMP = ROOT / "99_temp"
 TAG = "Manchester_ssNMR_SAE-032399"
 
-FONT = "Calibri"
+FONT = "Aptos"
 ACCENT = RGBColor(0x66, 0x00, 0x99)  # Manchester purple
 GREY = RGBColor(0x55, 0x55, 0x55)
 NAME = "Dazaet Galicia-Badillo"
@@ -277,63 +277,64 @@ def build_cv():
 
 # ---------- Covering letter ----------
 LETTER = [
-    "I am writing to apply for the position of Research Associate in Solid-State NMR Spectroscopy "
-    "(ref. SAE-032399) within the EPSRC Programme Grant on Molecular Solid Solutions. I completed my PhD in "
-    "Chemical Sciences at the Institute of Chemistry, UNAM (Mexico), in 2026 under the supervision of "
-    "Prof. Braulio Rodríguez-Molina, and the degree was awarded with honours.",
+    "I am applying for the position of Research Associate in Solid-State NMR Spectroscopy (ref. SAE-032399) "
+    "on the EPSRC Programme Grant on Molecular Solid Solutions. I completed my PhD in Chemical Sciences at the "
+    "Institute of Chemistry, UNAM (Mexico), in 2026 with Prof. Braulio Rodríguez-Molina, and the degree was "
+    "awarded with honours. In my thesis I used solid-state NMR together with diffraction to relate the motion "
+    "of molecules inside organic and metal-organic crystals to the behaviour of the crystal as a whole.",
 
-    "Solid-state NMR was the central technique of my PhD. On a Bruker 500 MHz spectrometer with a "
-    "double-resonance (¹H/X) MAS probe, I set up my own experiments, including tuning and matching both "
-    "channels and retuning the ¹H channel for ¹⁹F. I acquired ¹³C CP-MAS spectra with variable contact times, "
-    "¹⁹F MAS spectra, variable-temperature ²H spectra and some ¹⁵N CP-MAS spectra. I simulated ²H lineshapes "
-    "with NMR WebLab to obtain rotational rates and activation energies, and analysed ¹³C T₁ and ¹H and ¹⁹F "
-    "relaxometry data to follow faster motions.",
+    "The chapter closest to this project concerns a solid solution. I synthesised UiO-68-type zirconium MOFs "
+    "containing a terphenyl rotor linker and an azobenzene photoswitch linker in nominal ratios from 10 to 70%. "
+    "PXRD showed a single phase at every composition. "
+    "Periodic DFT models (CASTEP) with the linkers in ordered positions predicted extra reflections that were "
+    "absent experimentally, which indicated a random distribution of linkers within one phase. ¹³C CP-MAS "
+    "confirmed that both linkers were incorporated. With a deuterated rotor linker I recorded ²H spectra "
+    "between 178 and 338 K, fitted with 90° and 180° jumps above 10⁷ Hz using electric field gradients "
+    "calculated in CASTEP. The rotor motion did not change with photoswitch content or irradiation. After "
+    "loading hexafluorobenzene, which I confirmed by ¹⁹F MAS and quantified by ¹⁹F NMR with standard "
+    "additions, the 180° jumps were suppressed and the 90° site populations depended on the photoswitch state "
+    "(ACS Mater. Lett., 2026).",
 
-    "I use NMR together with diffraction. In a pyrrolo[3,2-b]pyrrole solvate that jumps on heating "
-    "(Mater. Chem. Front., 2026), ²H NMR and variable-temperature single-crystal diffraction allowed me to "
-    "separate the molecular dynamics from the anisotropic thermal expansion that drives the jump. In a "
-    "zirconium MOF (ACS Mater. Lett., 2026), the same combination showed how a photoswitch and guest uptake "
-    "change the motion of a molecular rotor. Both projects were done with Dr Martin Dračínský and "
-    "Dr Jan Blahut at IOCB Prague.",
+    "In a toluene solvate of a pyrrolo[3,2-b]pyrrole that jumps when cooled to 77 K (Mater. Chem. Front., 2026), "
+    "I prepared the toluene-d₈ analogue, recorded ²H spectra from 173 to 338 K and simulated the lineshapes in "
+    "NMR WebLab with quadrupolar parameters calculated in CASTEP (GIPAW). The fit required a three-site methyl "
+    "rotation and 180° ring flips, both above 10⁷ Hz at 248 K. Variable-temperature SCXRD (100 to 300 K) gave a "
+    "thermal expansion coefficient of 271 MK⁻¹ oblique to the face in contact with the cold surface, and we "
+    "attributed the jump to this anisotropic expansion. This work was done with Dr Martin Dračínský and "
+    "Dr Jan Blahut at IOCB Prague. I also acquired the ¹³C CP-MAS and ²H data for cocrystals whose channels "
+    "hold acetone and tetrahydrofuran in different ratios, where the salient temperature follows the solvent "
+    "composition (Angew. Chem. Int. Ed., 2026).",
 
-    "The role also involves preparing the solid solutions, and synthesis and crystallisation are a large part "
-    "of my training. I grow single crystals of molecular crystals, cocrystals and solvates and characterise "
-    "them by SCXRD, PXRD, DSC, TGA and hot-stage microscopy. I contributed to a study in which the salient "
-    "temperature of cocrystals was tuned through the composition of the crystallisation solvent mixture "
-    "(Angew. Chem. Int. Ed., 2026). I also run DFT (Gaussian16, periodic CP2K) and molecular dynamics (LAMMPS) "
-    "on HPC clusters. Diffraction gives the average structure of a molecular solid solution, while solid-state "
-    "NMR can show how a dopant is distributed and how it moves locally, and this is the question I would like "
-    "to work on within MoSS.",
+    "I ran these experiments on a Bruker 500 MHz spectrometer with a ¹H/X MAS probe, and have also acquired "
+    "³¹P and ¹⁵N CP-MAS spectra and analysed ¹³C T₁ and solid-state ¹H and ¹⁹F relaxometry data. I made the "
+    "compounds in my thesis, including the deuterated analogues, and characterised them by SCXRD, PXRD, DSC "
+    "and TGA. I have not yet used DNP. The UK DNP MAS NMR Facility in Manchester, and the possibility of "
+    "extending this work to ¹⁷O and natural-abundance ¹⁵N, are among my main reasons for applying.",
 
-    "I have not yet used DNP. The UK DNP MAS NMR Facility at Manchester, and the chance to extend my work to "
-    "¹⁷O and natural-abundance ¹⁵N, are among my main reasons for applying. During my PhD I learned periodic "
-    "DFT and molecular dynamics from scratch and now use both routinely, and I would approach DNP in the same way.",
-
-    "My 14 publications include collaborations with groups in the Czech Republic, the United States, China and "
-    "the United Arab Emirates. I co-supervised four bachelor's theses and nine undergraduate research placements, "
-    "trained students in laboratory procedures and safety, and handled purchasing and inventory for our "
-    "laboratory. I have presented 15 posters and 9 talks, and received the Best Poster Award at DynaMIC23 in "
-    "Fribourg. Thank you for considering my application; I would be glad to discuss it at interview.",
+    "I have 14 publications. During my PhD I co-supervised four bachelor's theses and nine research placements "
+    "and managed purchasing and inventory for our laboratory. I currently work as an Industrial Property Expert at "
+    "the Mexican Institute of Industrial Property; my contract ends in December 2026 and I could start in "
+    "January 2027. Thank you for considering my application.",
 ]
 
 
 def build_letter():
-    doc = base_doc(margins_cm=1.9)
+    doc = base_doc(margins_cm=1.6)
     para(doc, NAME, size=18, bold=True, color=ACCENT, after=0)
     para(doc, CONTACT, size=10, color=GREY, after=0)
     bottom_border(doc.paragraphs[-1])
-    para(doc, "", after=4)
-    para(doc, "10 October 2026", after=8)
+    doc.paragraphs[-1].paragraph_format.space_after = Pt(10)
+    para(doc, "10 October 2026", after=6)
     for line in ["Dr Daniel Lee", "Department of Chemical Engineering, School of Engineering",
                  "The University of Manchester", "Manchester M13 9PL, United Kingdom"]:
         para(doc, line, after=0)
-    para(doc, "", after=4)
+    doc.paragraphs[-1].paragraph_format.space_after = Pt(8)
     para(doc, "**Re: Research Associate in Solid-State NMR Spectroscopy, ref. SAE-032399**", after=8)
     para(doc, "Dear Dr Lee,", after=6)
     for t in LETTER:
-        p = para(doc, t, after=5)
+        p = para(doc, t, after=4)
         p.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
-    para(doc, "Yours sincerely,", after=12)
+    para(doc, "Yours sincerely,", after=6)
     para(doc, "Dazaet Galicia-Badillo, PhD", bold=True, after=0)
     path = OUT / f"coverletter-dazaet_galicia_{TAG}.docx"
     doc.save(path)

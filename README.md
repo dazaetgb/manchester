@@ -22,8 +22,12 @@ Resuelto el 10/10: ¹⁹F MAS; ¹³C T₁ y relaxometría de ¹H/¹⁹F en estad
 
 **CV:** es tu CV original con 5 cambios mínimos (ver `90_tools/build_cv_from_base.py`). Usa la fuente Aptos, que no existe en este entorno, así que **el PDF debes exportarlo tú desde Word** (Archivo > Guardar como > PDF). El PDF generado aquí solo sirve de vista previa.
 
+**Carta (10/10, reescrita):** basada en la tesis v3.1 (Drive: `TesisDoctoral-DGB-v3.1.pdf`). Una página, fuente Aptos. Se centra en el capítulo 4 (MOF UiO-68 como solución sólida de dos ligantes: PXRD + modelos DFT periódicos, ¹³C CP-MAS, ²H VT, ¹⁹F MAS y ¹⁹F cuantitativo con C₆F₆), el capítulo 3 (solvato de tolueno-d₈: ²H VT 173-338 K, WebLab + CASTEP/GIPAW, SCXRD VT y expansión térmica) y el cocristal de Angew. Chem. 2026.
+
+Para el PDF final: abre en Word `01_documentos/coverletter-...docx` y `cv-...docx`, exporta ambos a PDF y únelos (por ejemplo en ilovepdf.com/merge_pdf), carta primero. El PDF combinado de este repo usa una fuente sustituta y solo sirve de vista previa.
+
 Pendiente:
-1. **Tesis doctoral**, para reescribir la carta con lo que hiciste exactamente.
+1. Confirmar en la carta: (a) que tú adquiriste el ¹³C CP-MAS y el ²H del paper de Angew. Chem.; (b) quién hizo el ajuste de ²H del MOF con Spinach y los EFG en CASTEP; (c) que tú construiste los modelos DFT periódicos del MOF.
 2. (Resuelto: aviso de 2 semanas.)
 
 Resuelto el 10/10 (2): inicio en el IMPI en septiembre de 2026; Angew. Chem. Int. Ed. 2026, 65 (18), e26010 confirmado con el PDF (doi:10.1002/anie.202526010).
