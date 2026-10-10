@@ -168,9 +168,10 @@ def build_cv():
 
     heading(doc, "Profile")
     para(doc,
-         "Materials chemist trained at the Institute of Chemistry, UNAM, where my PhD used variable-temperature "
-         "²H and ¹³C solid-state NMR to measure molecular motion in organic crystals and metal-organic frameworks. "
-         "I analyse NMR data by lineshape simulation and relaxation analysis and interpret it together with "
+         "Materials chemist trained at the Institute of Chemistry, UNAM, where my PhD used multinuclear solid-state "
+         "NMR (¹³C, ¹⁹F, ²H, ¹⁵N) on a Bruker 500 MHz spectrometer to measure molecular motion in organic crystals "
+         "and metal-organic frameworks. I analyse NMR data by lineshape simulation and relaxation analysis and "
+         "interpret it together with "
          "variable-temperature single-crystal and powder X-ray diffraction, thermal analysis and DFT. "
          "Author of 14 publications, with collaborators "
          "in the Czech Republic, the United States, China and the United Arab Emirates.", after=2)
@@ -178,9 +179,11 @@ def build_cv():
     heading(doc, "Research Experience")
     dated(doc, "**Doctoral researcher**, Institute of Chemistry, UNAM (Prof. Braulio Rodríguez-Molina)", "2022 - 2026")
     for b in [
-        "Acquired and analysed variable-temperature ²H and ¹³C solid-state NMR data to determine rotational "
-        "dynamics of mobile components in organic crystals and Zr-based MOFs, using spectral (lineshape) "
-        "simulation and relaxation analysis.",
+        "Set up and ran solid-state NMR experiments on a Bruker 500 MHz spectrometer with a double-resonance "
+        "(¹H/X) MAS probe, including probe tuning and matching of both channels (¹H channel retuned for ¹⁹F): "
+        "¹³C CP-MAS with variable contact times, ¹⁹F MAS, variable-temperature ²H and ¹⁵N CP-MAS.",
+        "Determined rotational dynamics of mobile components in organic crystals and Zr-based MOFs by ²H "
+        "lineshape simulation (NMR WebLab) and analysis of ¹³C T₁ and ¹H/¹⁹F relaxometry data.",
         "Correlated NMR dynamics with variable-temperature SCXRD/PXRD structures to "
         "separate molecular motion from anisotropic thermal expansion in a thermosalient solvate "
         "(*Mater. Chem. Front.* 2026) and to show how a photoswitch and guest uptake modulate a molecular rotor "
@@ -200,8 +203,10 @@ def build_cv():
 
     heading(doc, "Technical Skills")
     for lab, txt in [
-        ("Solid-state NMR", "variable-temperature ²H and ¹³C; lineshape simulation; relaxation analysis; "
-                            "data processing in MestReNova."),
+        ("Solid-state NMR", "Bruker 500 MHz, TopSpin; double-resonance ¹H/X MAS probe tuning and matching; "
+                            "¹³C CP-MAS (variable contact time), ¹⁹F MAS, variable-temperature ²H, ¹⁵N CP-MAS; "
+                            "²H lineshape simulation (NMR WebLab); ¹³C T₁ and ¹H/¹⁹F relaxometry analysis; "
+                            "processing in TopSpin and MestReNova."),
         ("Diffraction", "SCXRD and PXRD, including variable-temperature studies; structure solution and "
                         "refinement (SHELX); CCDC suite, CrystalDiffract."),
         ("Thermal and optical", "DSC, TGA, hot-stage microscopy; UV-Vis absorption; steady-state and "
@@ -210,7 +215,8 @@ def build_cv():
                         "DFT in CP2K; molecular dynamics in LAMMPS; HPC job workflows; AI-assisted data analysis."),
         ("Synthesis", "multistep organic synthesis, air- and moisture-sensitive chemistry, crystallisation of "
                       "molecular crystals, cocrystals and solvates; MOF synthesis and post-synthetic modification."),
-        ("Laboratory", "training of students, purchasing and inventory, laboratory organisation and safety."),
+        ("Laboratory", "training of students in laboratory procedures and safety; purchasing, inventory and "
+                       "organisation of a research laboratory."),
     ]:
         p = doc.add_paragraph()
         add_runs(p, f"**{lab}:** {txt}")
@@ -257,7 +263,7 @@ def build_cv():
     for t in [
         "**Prof. Braulio Rodríguez-Molina**, PhD supervisor. Institute of Chemistry, UNAM, Mexico. "
         "brodriguez@iquimica.unam.mx · (+52) 55 6706 9475",
-        "**Dr Aaron Torres-Huerta**, research collaborator. "
+        "**Dr Aaron Torres-Huerta**, research collaborator. Universidad Autónoma de Madrid, Spain. "
         "aaron.torres.huerta@ulb.be · (+32) 489 34 15 69",
     ]:
         p = doc.add_paragraph()
@@ -276,43 +282,43 @@ LETTER = [
     "Chemical Sciences at the Institute of Chemistry, UNAM (Mexico), in 2026 under the supervision of "
     "Prof. Braulio Rodríguez-Molina, and the degree was awarded with honours.",
 
-    "My doctoral research used solid-state NMR to measure molecular motion in organic crystals and "
-    "metal-organic frameworks and to connect that motion with crystal structure and macroscopic behaviour. "
-    "I acquired variable-temperature ²H and ¹³C solid-state NMR data and analysed them by lineshape simulation "
-    "and relaxation analysis to obtain rotational rates and activation energies. In a pyrrolo[3,2-b]pyrrole "
-    "solvate that jumps on heating (Mater. Chem. Front., 2026), I combined ²H NMR with variable-temperature "
-    "single-crystal diffraction to separate the molecular dynamics from the anisotropic thermal expansion that "
-    "drives the jump. In a zirconium MOF (ACS Mater. Lett., 2026), I used the same combination to follow how a "
-    "photoswitch and guest uptake change the motion of a molecular rotor. Both projects were carried out with "
-    "Dr Martin Dračínský and Dr Jan Blahut at IOCB Prague, and working with them taught me to use NMR and "
-    "diffraction data as checks on each other.",
+    "Solid-state NMR was the central technique of my PhD. On a Bruker 500 MHz spectrometer with a "
+    "double-resonance (¹H/X) MAS probe, I set up my own experiments, including tuning and matching both "
+    "channels and retuning the ¹H channel for ¹⁹F. I acquired ¹³C CP-MAS spectra with variable contact times, "
+    "¹⁹F MAS spectra, variable-temperature ²H spectra and some ¹⁵N CP-MAS spectra. I simulated ²H lineshapes "
+    "with NMR WebLab to obtain rotational rates and activation energies, and analysed ¹³C T₁ and ¹H and ¹⁹F "
+    "relaxometry data to follow faster motions.",
 
-    "Several of the desirable criteria describe work I do routinely. I characterise molecular crystals, "
-    "cocrystals and solvates by SCXRD, PXRD, DSC, TGA and hot-stage microscopy. I run DFT in Gaussian16 and "
-    "periodic DFT in CP2K, use LAMMPS for molecular dynamics, and wrote two successful proposals for national "
-    "supercomputing time. Multicomponent molecular crystals are already part of my work: I contributed to a study "
-    "in which the salient temperature of cocrystals was tuned through the composition of the crystallisation "
-    "solvent mixture (Angew. Chem. Int. Ed., 2026). Diffraction describes the average structure of a molecular "
-    "solid solution, while solid-state NMR can show how each component is distributed and how it moves locally. "
-    "I would very much like to work on that question within MoSS.",
+    "I use NMR together with diffraction. In a pyrrolo[3,2-b]pyrrole solvate that jumps on heating "
+    "(Mater. Chem. Front., 2026), ²H NMR and variable-temperature single-crystal diffraction allowed me to "
+    "separate the molecular dynamics from the anisotropic thermal expansion that drives the jump. In a "
+    "zirconium MOF (ACS Mater. Lett., 2026), the same combination showed how a photoswitch and guest uptake "
+    "change the motion of a molecular rotor. Both projects were done with Dr Martin Dračínský and "
+    "Dr Jan Blahut at IOCB Prague.",
 
-    "My hands-on experience so far is with ²H and ¹³C. I am keen to extend it to ¹H, ¹⁵N, ¹⁹F and ¹⁷O "
-    "experiments and to DNP-enhanced MAS, and the opportunity to learn these methods in your group is one of "
-    "the main reasons for this application. During my PhD I learned periodic DFT and molecular dynamics "
-    "from scratch and now use both in my projects, and I would approach new NMR methods in the same way.",
+    "The role also involves preparing the solid solutions, and synthesis and crystallisation are a large part "
+    "of my training. I grow single crystals of molecular crystals, cocrystals and solvates and characterise "
+    "them by SCXRD, PXRD, DSC, TGA and hot-stage microscopy. I contributed to a study in which the salient "
+    "temperature of cocrystals was tuned through the composition of the crystallisation solvent mixture "
+    "(Angew. Chem. Int. Ed., 2026). I also run DFT (Gaussian16, periodic CP2K) and molecular dynamics (LAMMPS) "
+    "on HPC clusters. Diffraction gives the average structure of a molecular solid solution, while solid-state "
+    "NMR can show how a dopant is distributed and how it moves locally, and this is the question I would like "
+    "to work on within MoSS.",
 
-    "I enjoy working in teams spread across institutions. My 14 publications include collaborations with groups "
-    "in the Czech Republic, the United States, China and the United Arab Emirates. I co-supervised four bachelor's "
-    "theses and nine undergraduate research placements, and I received the Best Poster Award at DynaMIC23 in "
-    "Fribourg. A consortium shared between Durham, Leeds and Manchester, with placements between sites, suits "
-    "the way I like to work.",
+    "I have not yet used DNP. The UK DNP MAS NMR Facility at Manchester, and the chance to extend my work to "
+    "¹⁷O and natural-abundance ¹⁵N, are among my main reasons for applying. During my PhD I learned periodic "
+    "DFT and molecular dynamics from scratch and now use both routinely, and I would approach DNP in the same way.",
 
-    "Thank you for considering my application. I would be glad to discuss it at interview.",
+    "My 14 publications include collaborations with groups in the Czech Republic, the United States, China and "
+    "the United Arab Emirates. I co-supervised four bachelor's theses and nine undergraduate research placements, "
+    "trained students in laboratory procedures and safety, and handled purchasing and inventory for our "
+    "laboratory. I have presented 15 posters and 9 talks, and received the Best Poster Award at DynaMIC23 in "
+    "Fribourg. Thank you for considering my application; I would be glad to discuss it at interview.",
 ]
 
 
 def build_letter():
-    doc = base_doc(margins_cm=2.0)
+    doc = base_doc(margins_cm=1.9)
     para(doc, NAME, size=18, bold=True, color=ACCENT, after=0)
     para(doc, CONTACT, size=10, color=GREY, after=0)
     bottom_border(doc.paragraphs[-1])

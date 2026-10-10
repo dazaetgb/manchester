@@ -14,21 +14,21 @@ Entrevistas: finales de noviembre o principios de diciembre.
 | `02_formularios/` | Respuestas sugeridas para cada formulario de Jobtrain |
 | `90_tools/` | Script que regenera todo (`python3 90_tools/build_manchester_ssnmr.py`) |
 
-## Paso 0: confirma estos datos antes de enviar (importante)
+## Paso 0: estado de las confirmaciones
 
-La carta y el CV dicen solo lo que aparece en tu CV base. Revisa estos puntos, porque son los que decidirán la preselección:
+Ya resuelto (10/10/2026): RMN en Bruker 500 MHz con sonda ¹H/X; ¹³C CP-MAS con tiempo de contacto variable; ¹⁹F; ²H a temperatura variable; ¹⁵N limitado; NMR WebLab; análisis de ¹³C T₁ y de relaxometría de ¹H/¹⁹F; Aaron en la UAM; Further Particulars leídos (se agregaron síntesis, seguridad, supervisión y DNP Facility).
 
-1. **¿Qué experimentos de RMN de estado sólido corriste tú mismo, en el espectrómetro?** Los criterios esenciales piden "una amplia gama de experimentos avanzados" y "RMN multinuclear". Si hiciste ¹³C CP-MAS, eco cuadrupolar de ²H, mediciones de T₁, ¹H MAS rápido, ¹⁹F (por ejemplo en el MOF con huéspedes fluorados), ¹⁵N o 2D (HETCOR), **dímelo y lo agrego por nombre**. Es la mejora más importante que se puede hacer.
-2. **¿Qué software usaste para simular espectros de ²H?** (EXPRESS, SIMPSON, MXQET, código propio…). Nombrarlo responde al criterio E4.
-3. **¿Usaste cálculos de desplazamiento químico (GIPAW/CASTEP o Gaussian NMR) con el grupo de Dračínský?** Si sí, responde a "NMR crystallography" y al criterio D3.
-4. **Artículo de Angew. Chem. 2026:** el número de artículo "e26010" se ve incompleto. Revísalo.
-5. **Dr Aaron Torres-Huerta:** en tu CV aparece como Universidad Autónoma de Madrid, pero su correo es de la ULB (Bruselas). Confirma su institución actual. En el CV dejé solo el correo.
-6. **IMPI:** ¿cuál es tu puesto y desde cuándo? El formulario de historial laboral lo pedirá.
-7. **Fecha de inicio posible** y si tienes título y cédula de doctorado en mano (te pueden pedir copias).
+Pendiente:
+1. **¹⁹F:** ¿fue ¹⁹F MAS directo o CP ¹⁹F→¹³C? Ahora dice "¹⁹F MAS".
+2. **¹³C T₁:** ¿lo mediste tú o solo analizaste los datos? Ahora dice "analysed".
+3. **Relaxometría ¹H/¹⁹F:** ¿en sólido o en disolución? Ahora dice solo "relaxometry data".
+4. **Angew. Chem. 2026:** confirma el número de artículo ("e26010").
+5. **IMPI:** puesto y fecha de inicio, para el historial laboral. Si tu trabajo toca patentes de empresas, eso cubre el criterio deseable "industrial partners".
+6. **Fecha de inicio posible.**
 
 ## Paso 1: antes de abrir el portal
 
-- [ ] Descarga el PDF *Further Particulars* (`SAE-032399 Research Associate in ssNMR of MoSS FPs`) desde la página de la vacante. Puede traer la *person specification* con criterios que se evalúan "en la solicitud" o "en la entrevista". Pásamelo y ajusto la carta.
+- [x] Further Particulars leídos (copia en `00_vacante/`).
 - [ ] (Opcional, pero recomendable en Reino Unido) Escribe un correo breve a **Dr Daniel Lee** (daniel.lee@manchester.ac.uk) con una pregunta concreta sobre el puesto. Hay un borrador en `02_formularios/correo_daniel_lee.md`.
 - [ ] Avisa a tus dos referencias que Manchester podría contactarlas en noviembre.
 - [ ] Ten a mano: pasaporte, fechas exactas de grados, títulos y la fecha de examen doctoral.
