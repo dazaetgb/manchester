@@ -8,7 +8,7 @@ BASE = ROOT / "00_fuentes" / "CV_base_Dazaet_Galicia-Badillo.docx"
 
 NMR_OLD = "Solid-state NMR: variable-temperature ²H and ¹³C, spectral simulation and relaxation analysis."
 NMR_NEW = ("Solid-state NMR (Bruker 500 MHz, double-resonance ¹H/X MAS probe): ¹³C CP-MAS, ¹⁹F MAS, ³¹P, "
-           "variable-temperature ²H and ¹⁵N CP-MAS; ²H lineshape simulation; DFT calculation of NMR parameters; "
+           "variable-temperature ²H and ¹⁵N CP-MAS; ²H lineshape simulation; DFT calculation of NMR parameters (CP2K); "
            "analysis of ¹³C T₁ and solid-state ¹H and ¹⁹F relaxometry data.")
 
 ABOUT_RUN2 = (" on the design and synthesis of organic crystals and metal-organic frameworks exhibiting dynamics "
