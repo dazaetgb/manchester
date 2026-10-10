@@ -24,8 +24,9 @@ Resuelto el 10/10: ¹⁹F MAS; ¹³C T₁ y relaxometría de ¹H/¹⁹F en estad
 
 Pendiente:
 1. **Tesis doctoral**, para reescribir la carta con lo que hiciste exactamente.
-2. Mes de inicio en el IMPI y periodo de aviso.
-3. Angew. Chem. 2026: confirma el número de artículo ("e26010").
+2. Periodo de aviso (notice period) al dejar el IMPI.
+
+Resuelto el 10/10 (2): inicio en el IMPI en septiembre de 2026; Angew. Chem. Int. Ed. 2026, 65 (18), e26010 confirmado con el PDF (doi:10.1002/anie.202526010).
 
 ## Paso 1: antes de abrir el portal
 

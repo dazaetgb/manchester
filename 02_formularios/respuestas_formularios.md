@@ -30,7 +30,7 @@ Si al abrir el portal una sección no coincide con esta lista, mándame una capt
 Si piden "UK equivalent", escribe "Doctoral degree (PhD)". No hace falta un certificado ENIC en esta etapa.
 
 ## 4. Employment history (más reciente primero)
-1. **Industrial Property Expert** (Experto en Propiedad Industrial), Instituto Mexicano de la Propiedad Industrial (IMPI), Mexico City · [CONFIRMAR mes de inicio] 2026 - present (fixed-term contract ending January 2027)
+1. **Industrial Property Expert** (Experto en Propiedad Industrial), Instituto Mexicano de la Propiedad Industrial (IMPI), Mexico City · September 2026 - present (fixed-term contract ending January 2027)
    *Duties:* [CONFIRMAR: por ejemplo, technical examination of patent applications in chemistry and materials]
    *Reason for leaving:* Fixed-term contract ends January 2027; returning to academic research.
    *Notice period:* [CONFIRMAR, normalmente 2 a 4 semanas]
