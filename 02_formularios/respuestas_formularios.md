@@ -35,7 +35,7 @@ Si piden "UK equivalent", escribe "Doctoral degree (PhD)". No hace falta un cert
    *Reason for leaving:* Fixed-term contract ends January 2027; returning to academic research.
    *Notice period:* [CONFIRMAR, normalmente 2 a 4 semanas]
 2. **Doctoral researcher** (SECIHTI doctoral scholarship), Institute of Chemistry, UNAM · 2022 - 2026
-   *Duties:* Solid-state NMR (variable-temperature ²H and ¹³C), SCXRD/PXRD, DSC/TGA and DFT/MD studies of molecular motion in organic crystals and MOFs; co-supervision of 4 bachelor's theses and 9 research placements; laboratory purchasing and training.
+   *Duties:* Multinuclear solid-state NMR (¹³C CP-MAS, ¹⁹F MAS, variable-temperature ²H, ¹⁵N; Bruker 500 MHz), SCXRD/PXRD, DSC/TGA and DFT/MD studies of molecular motion in organic crystals and MOFs; co-supervision of 4 bachelor's theses and 9 research placements; laboratory purchasing and training.
    *Reason for leaving:* Completion of PhD.
 3. **MSc researcher** (SECIHTI scholarship), Institute of Chemistry, UNAM · 2020 - 2022
    *Duties:* Synthesis and solid-state characterisation of molecular rotors and MOFs.
