@@ -280,36 +280,37 @@ LETTER = [
     "I am applying for the position of Research Associate in Solid-State NMR Spectroscopy (ref. SAE-032399) "
     "on the EPSRC Programme Grant on Molecular Solid Solutions. I completed my PhD in Chemical Sciences at the "
     "Institute of Chemistry, UNAM (Mexico), in 2026 with Prof. Braulio Rodríguez-Molina, and the degree was "
-    "awarded with honours. In my thesis I used solid-state NMR together with diffraction to relate the motion "
-    "of molecules inside organic and metal-organic crystals to the behaviour of the crystal as a whole.",
+    "awarded with honours. My thesis used solid-state NMR with diffraction to relate molecular motion in "
+    "organic and metal-organic crystals to their macroscopic behaviour.",
 
     "The chapter closest to this project concerns a solid solution. I synthesised UiO-68-type zirconium MOFs "
-    "containing a terphenyl rotor linker and an azobenzene photoswitch linker in nominal ratios from 10 to 70%. "
-    "PXRD showed a single phase at every composition. "
-    "Periodic DFT models (CASTEP) with the linkers in ordered positions predicted extra reflections that were "
-    "absent experimentally, which indicated a random distribution of linkers within one phase. ¹³C CP-MAS "
-    "confirmed that both linkers were incorporated. With a deuterated rotor linker I recorded ²H spectra "
-    "between 178 and 338 K, fitted with 90° and 180° jumps above 10⁷ Hz using electric field gradients "
-    "calculated in CASTEP. The rotor motion did not change with photoswitch content or irradiation. After "
-    "loading hexafluorobenzene, which I confirmed by ¹⁹F MAS and quantified by ¹⁹F NMR with standard "
-    "additions, the 180° jumps were suppressed and the 90° site populations depended on the photoswitch state "
-    "(ACS Mater. Lett., 2026).",
+    "containing a terphenyl rotor linker and a longer azobenzene photoswitch linker in nominal ratios from 10 to "
+    "70%. Because the linkers differ in length, the PXRD reflections, which are dominated by the Zr₆ clusters, "
+    "shifted to lower angle as the photoswitch content increased, and periodic DFT models (CASTEP) with ordered "
+    "linkers predicted extra reflections that were absent. Together these pointed to a random distribution of "
+    "linkers within one phase. ¹³C CP-MAS confirmed that both linkers were incorporated. With a deuterated rotor "
+    "linker I recorded ²H spectra between 178 and 338 K, fitted with 90° and 180° jumps above 10⁷ Hz using "
+    "electric field gradients calculated in CASTEP. After loading hexafluorobenzene, which I confirmed by ¹⁹F MAS "
+    "and quantified by ¹⁹F NMR with standard additions, the 180° jumps were suppressed and the 90° site "
+    "populations depended on the photoswitch state (ACS Mater. Lett., 2026). In molecular solid solutions whose "
+    "components have similar size and shape, diffraction will distinguish far less, and solid-state NMR becomes "
+    "the main probe of how the components are distributed and how they move.",
 
     "In a toluene solvate of a pyrrolo[3,2-b]pyrrole that jumps when cooled to 77 K (Mater. Chem. Front., 2026), "
     "I prepared the toluene-d₈ analogue, recorded ²H spectra from 173 to 338 K and simulated the lineshapes in "
     "NMR WebLab with quadrupolar parameters calculated in CASTEP (GIPAW). The fit required a three-site methyl "
-    "rotation and 180° ring flips, both above 10⁷ Hz at 248 K. Variable-temperature SCXRD (100 to 300 K) gave a "
+    "rotation and 180° ring flips, both above 10⁷ Hz at 248 K. Variable-temperature SCXRD gave a "
     "thermal expansion coefficient of 271 MK⁻¹ oblique to the face in contact with the cold surface, and we "
     "attributed the jump to this anisotropic expansion. This work was done with Dr Martin Dračínský and "
     "Dr Jan Blahut at IOCB Prague. I also acquired the ¹³C CP-MAS and ²H data for cocrystals whose channels "
     "hold acetone and tetrahydrofuran in different ratios, where the salient temperature follows the solvent "
     "composition (Angew. Chem. Int. Ed., 2026).",
 
-    "I ran these experiments on a Bruker 500 MHz spectrometer with a ¹H/X MAS probe, and have also acquired "
+    "I ran these experiments on a Bruker 500 MHz spectrometer (¹H/X MAS probe), and also acquired "
     "³¹P and ¹⁵N CP-MAS spectra and analysed ¹³C T₁ and solid-state ¹H and ¹⁹F relaxometry data. I made the "
     "compounds in my thesis, including the deuterated analogues, and characterised them by SCXRD, PXRD, DSC "
-    "and TGA. I have not yet used DNP. The UK DNP MAS NMR Facility in Manchester, and the possibility of "
-    "extending this work to ¹⁷O and natural-abundance ¹⁵N, are among my main reasons for applying.",
+    "and TGA. I have not yet used DNP. The UK DNP MAS NMR Facility in Manchester, and the chance to "
+    "extend this work to ¹⁷O and natural-abundance ¹⁵N, are among my main reasons for applying.",
 
     "I have 14 publications. During my PhD I co-supervised four bachelor's theses and nine research placements "
     "and managed purchasing and inventory for our laboratory. I currently work as an Industrial Property Expert at "
@@ -319,7 +320,7 @@ LETTER = [
 
 
 def build_letter():
-    doc = base_doc(margins_cm=1.6)
+    doc = base_doc(margins_cm=1.5)
     para(doc, NAME, size=18, bold=True, color=ACCENT, after=0)
     para(doc, CONTACT, size=10, color=GREY, after=0)
     bottom_border(doc.paragraphs[-1])
