@@ -23,7 +23,7 @@ Si al abrir el portal una sección no coincide con esta lista, mándame una capt
 ## 3. Education / Qualifications
 | Qualification | Institution | Dates | Result / notes |
 |---|---|---|---|
-| PhD in Chemical Sciences | Universidad Nacional Autónoma de México (UNAM), Institute of Chemistry | 2022 - 2026 [CONFIRMAR fecha de examen] | Awarded with honours. Thesis: *Molecular and Macroscopic Motion in Organic Crystals and Metal-Organic Frameworks* |
+| PhD in Chemical Sciences | Universidad Nacional Autónoma de México (UNAM), Institute of Chemistry | 2022 - 2026 [CONFIRMAR fecha de examen] | Awarded with honours. Thesis: *Molecular and Macroscopic Motion in Organic and Metal-Organic Crystals* (original title in Spanish: Movimiento molecular y macroscópico en cristales orgánicos y metal-orgánicos) |
 | MSc in Chemical Sciences | UNAM, Institute of Chemistry | 2020 - 2022 | [CONFIRMAR calificación] |
 | BSc in Chemistry | UNAM, Faculty of Chemistry | 2015 - 2020 | [CONFIRMAR promedio] |
 
