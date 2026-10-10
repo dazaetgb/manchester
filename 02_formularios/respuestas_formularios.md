@@ -45,11 +45,11 @@ Si piden explicar huecos: no hay.
 ## 5. Referees
 Pide 2 o 3; el primero suele ser tu supervisor más reciente.
 1. **Prof. Braulio Rodríguez-Molina**, PhD supervisor, Instituto de Química, UNAM · brodriguez@iquimica.unam.mx · +52 55 6706 9475 · May we contact before interview? **Yes**
-2. **Dr Aaron Torres-Huerta**, research collaborator · aaron.torres.huerta@ulb.be · +32 489 34 15 69 · [CONFIRMAR institución actual]
+2. **Dr Aaron Torres-Huerta**, research collaborator · Universidad Autónoma de Madrid · [CONFIRMAR correo y teléfono actuales; los que tenías eran de la ULB: aaron.torres.huerta@ulb.be, +32 489 34 15 69]
 3. (Recomendado) **Dr Martin Dračínský**, IOCB Prague: es tu mejor referencia para la parte de RMN si acepta. [CONFIRMAR con él primero]
 
 ## 6. Supporting documents
-- Sube: `01_documentos/Galicia-Badillo_Dazaet_SAE-032399_CoverLetter_CV.pdf` (71 KB)
+- Sube: `01_documentos/Galicia-Badillo_Dazaet_SAE-032399_CoverLetter_CV.pdf` (menos de 1 MB)
 - Si además hay un campo "Supporting statement" de texto libre, pega los párrafos 2 a 5 de la carta, o escribe: "Please see my covering letter and CV, uploaded as a single document as requested."
 
 ## 7. Equality, diversity and inclusion monitoring
