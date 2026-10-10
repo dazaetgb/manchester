@@ -26,3 +26,10 @@ Sin construcciones "no es X, es Y", sin guiones largos, sin tricolons ni cierres
 - Fuente Aptos; el PDF final lo exporta Dazaet desde Word. Carta + CV en un solo PDF < 1 MB.
 - **La versión de trabajo vive en Google Drive**, carpeta `manchester` (id 15-ZzMwOYVq1SrVSsqGFMX2CJkCCK_aBd). Dazaet edita ahí; los cambios que pida se aplican en el documento de Drive (y se reflejan en el repo).
 - Commit y push a `main`.
+
+## Archivos en Drive (`manchester/`)
+- `01_documentos/Carta Manchester SAE-032399` (Google Doc, id 124-DR4JE0mwtXZcP5nvfjbck1bSddT7yMdpK1-esncA): **versión de trabajo de la carta**. Antes de editarla, leerla desde Drive por si Dazaet la cambió.
+- `02_formularios/Respuestas formularios Jobtrain SAE-032399` (id 1DTPnOxEtMngGEje5_Il-s5Z021rN9QsxuuM28OrIozY)
+- `02_formularios/Correo opcional a Daniel Lee` (id 12K4cGvwbp1cW1P4bK6KoAasp_QGyf1iPpnzR11BuCus)
+- `00_vacante/Vacante SAE-032399 (texto y criterios)` (id 1z0cnpEdAPDfw0JVlbI0iCxG7cb_zOTMDonSddQXXTYY)
+- `papers/`: los 14 papers con SI; `papers/ejemplos solucionessolidas/`: solo contexto.
